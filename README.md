@@ -7,7 +7,7 @@ Then just execute the sh script, it downloads PHP files from kingofsat.net and c
 chmod +x *.sh
 
 sh ./getchannels_fta.sh //for all fta channels (radio+tv) on selected positions
-```
+
 or 
 
 sh ./getchannels_lang.sh ///for all fta lang selected channels (radio+tv) on selected positions
