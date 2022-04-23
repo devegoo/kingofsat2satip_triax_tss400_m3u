@@ -6,3 +6,9 @@ Then just execute the sh script, it downloads PHP files from kingofsat.net and c
 ```
 sh ./getchannels.sh
 ```
+MOD for TRIAX TSS400 
+
+
+tested playeers :
+
+VLC 
