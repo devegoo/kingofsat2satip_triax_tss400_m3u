@@ -65,10 +65,10 @@ for line in f:
 				#EXTINF:0,ANTENA
 				#http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=10892&pol=h&sr=27500&pids=164,96
 				description = "#EXTINF:0," + channelname
-				url = "http://" + server + "/dlna/?type=DVB-S-AUT/?src=" + source + "&freq=" + frequency + "&pol=" + polarity  
+				url = "http://" + server + "/dlna/?type=DVB-S-AUTO&src=" + source + "&freq=" + frequency + "&pol=" + polarity
 				url = url + "&sr=" + symrate + "&pids=" + apid
 				for i in opidArray:
-					url = url + "," + i
+					url = url
 				o.write(description + "\n")
 				o.write(url + "\n")
 				newRadioChannel = 0
@@ -110,10 +110,10 @@ for line in f:
 				# #EXTINF:0,SRF 1 HD
 				# rtsp://@mmslave/?src=4&freq=10971&pol=h&msys=dvbs2&sr=29700&pids=0,501,502,507,503,504,505,502&x_pmt=501
 				description = "#EXTINF:0," + channelname
-				url = "http://" + server + "/dlna/?type=DVB-S-AUT/?src=" + source + "&freq=" + frequency + "&pol=" + polarity  
+				url = "http://" + server + "/dlna/?type=DVB-S-AUTO&src=" + source + "&freq=" + frequency + "&pol=" + polarity
 				url = url + "&sr=" + symrate + "&pids=" + vpid + "," + apid
 				for i in opidArray:
-					url = url + "," + i
+					url = url
 				o.write(description + "\n")
 				o.write(url + "\n")
 				newChannel = 0

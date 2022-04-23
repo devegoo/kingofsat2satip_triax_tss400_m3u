@@ -1,0 +1,62 @@
+#EXTINF:0,TVP INFO HD
+http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=10719&pol=v&sr=27500&pids=168,112
+#EXTINF:0,NETFLIX
+http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=10719&pol=v&sr=27500&pids=8180
+#EXTINF:0,STARS.TV
+http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=10758&pol=v&sr=27500&pids=291,547
+#EXTINF:0,4Fun.TV
+http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=10758&pol=v&sr=27500&pids=265,521
+#EXTINF:0,4Fun Kids
+http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=10758&pol=v&sr=27500&pids=276,532
+#EXTINF:0,4Fun Dance
+http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=10758&pol=v&sr=27500&pids=280,536
+#EXTINF:0,Eska TV Extra
+http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=10758&pol=v&sr=27500&pids=337,593
+#EXTINF:0,TVS
+http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=10796&pol=v&sr=27500&pids=163,92
+#EXTINF:0,
+http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=10796&pol=v&sr=27500&pids=159
+#EXTINF:0,Red Carpet TV
+http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=10834&pol=v&sr=27500&pids=168,112
+#EXTINF:0,Music Box Polska
+http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=10834&pol=v&sr=27500&pids=170,120
+#EXTINF:0,ANTENA
+http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=10892&pol=h&sr=27500&pids=164,96
+#EXTINF:0,POWER TV
+http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=10892&pol=h&sr=27500&pids=165,100
+#EXTINF:0,NUTA TV
+http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=10892&pol=h&sr=27500&pids=166,104
+#EXTINF:0,GOLD TV
+http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=10892&pol=h&sr=27500&pids=168,112
+#EXTINF:0,TVC
+http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=10892&pol=h&sr=27500&pids=169,116
+#EXTINF:0,TVP Polonia
+http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=11075&pol=v&sr=30000&pids=1510,1520
+#EXTINF:0,Radio ZET
+http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=11487&pol=h&sr=27500&pids=423
+#EXTINF:0,Meloradio
+http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=11487&pol=h&sr=27500&pids=422
+#EXTINF:0,Chillizet
+http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=11487&pol=h&sr=27500&pids=420
+#EXTINF:0,Antyradio
+http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=11487&pol=h&sr=27500&pids=426
+#EXTINF:0,JASNA GORA
+http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=11487&pol=h&sr=27500&pids=427
+#EXTINF:0,TOK FM
+http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=11487&pol=h&sr=27500&pids=421
+#EXTINF:0,TELE 5
+http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=11662&pol=v&sr=27500&pids=2011,2012
+#EXTINF:0,Polonia 1
+http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=11662&pol=v&sr=27500&pids=2021,2022
+#EXTINF:0,TV Okazje
+http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=12188&pol=v&sr=27500&pids=265,266
+#EXTINF:0,Muzo.fm
+http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=12188&pol=v&sr=27500&pids=721
+#EXTINF:0,RMF Classic
+http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=12188&pol=v&sr=27500&pids=722
+#EXTINF:0,RMF MAXXX
+http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=12188&pol=v&sr=27500&pids=726
+#EXTINF:0,Zlote Przeboje
+http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=12188&pol=v&sr=27500&pids=728
+#EXTINF:0,TBN Poland
+http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=12303&pol=v&sr=27500&pids=8007,8107
