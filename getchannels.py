@@ -60,10 +60,13 @@ for line in f:
 				# Build up rtsp:// line here
 				# Example m3u from dd SW:
 				# #EXTINF:0,SRF 1 HD
-				# rtsp://@mmslave/?src=4&freq=10971&pol=h&msys=dvbs2&sr=29700&pids=0,501,502,507,503,504,505,502&x_pmt=501
+				# http://@mmslave/?src=4&freq=10971&pol=h&msys=dvbs2&sr=29700&pids=0,501,502,507,503,504,505,502&x_pmt=501
+				##EXTM3U //TRIAX-TSS400
+				#EXTINF:0,ANTENA
+				#http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=10892&pol=h&sr=27500&pids=164,96
 				description = "#EXTINF:0," + channelname
-				url = "rtsp://@" + server + "/?src=" + source + "&freq=" + frequency + "&pol=" + polarity  
-				url = url + "&msys=" + delsys + "&mtype=" + modulation + "&sr=" + symrate + "&pids=0," + apid
+				url = "http://" + server + "/dlna/?type=DVB-S-AUT/?src=" + source + "&freq=" + frequency + "&pol=" + polarity  
+				url = url + "&sr=" + symrate + "&pids=" + apid
 				for i in opidArray:
 					url = url + "," + i
 				o.write(description + "\n")
@@ -107,8 +110,8 @@ for line in f:
 				# #EXTINF:0,SRF 1 HD
 				# rtsp://@mmslave/?src=4&freq=10971&pol=h&msys=dvbs2&sr=29700&pids=0,501,502,507,503,504,505,502&x_pmt=501
 				description = "#EXTINF:0," + channelname
-				url = "rtsp://@" + server + "/?src=" + source + "&freq=" + frequency + "&pol=" + polarity  
-				url = url + "&msys=" + delsys + "&mtype=" + modulation + "&sr=" + symrate + "&pids=0," + vpid + "," + apid
+				url = "http://" + server + "/dlna/?type=DVB-S-AUT/?src=" + source + "&freq=" + frequency + "&pol=" + polarity  
+				url = url + "&sr=" + symrate + "&pids=" + vpid + "," + apid
 				for i in opidArray:
 					url = url + "," + i
 				o.write(description + "\n")
