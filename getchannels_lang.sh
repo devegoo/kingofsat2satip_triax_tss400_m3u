@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # configure SATIP server name/IP address, here
 SERVER="192.168.1.113"
 #SERVER="192.168.178.42"
@@ -45,17 +44,13 @@ wget "https://de.kingofsat.net/freqs.php?&pos=$P4&standard=All&ordre=freq&filtre
 mv "freqs.php?&pos=$P4&standard=All&ordre=freq&filtre=Clear&cl=$L4" tv-$P4-fta.php
 python ../getchannels.py $SERVER tv-$P4-fta.php 4
 cd ..
-
-# call python script to extract channel information from php files and generate m3u files
-# the number at the end of the call is the satip src parameter (diseqc position)
-
-# merge all m3u files together
+mkdir LANG FTA
 cp */*.m3u .
 cat *.m3u > allChannels.m3u
-sed 's/pol=V/pol=v/g' allChannels.m3u > /tmp/allChannels.m3u && sed 's/pol=H/pol=h/g'  /tmp/allChannels.m3u > SATIP_All_Channels.m3u
+sed 's/pol=V/pol=v/g' allChannels.m3u > /tmp/allChannels.m3u && sed 's/pol=H/pol=h/g'  /tmp/allChannels.m3u > LANG/FTA_$P1-$L1-$P2-$L2-$P3-$L3-$P4-$L4-$(date +%F)-$(date +%T).m3u
 for i in "${P[@]}";
 do
-sed 's/pol=V/pol=v/g' tv-$i-fta.m3u > /tmp/tv-$i-fta.m3u && sed 's/pol=H/pol=h/g' /tmp/tv-$i-fta.m3u > TV-$i-Fta-Lang.m3u
+sed 's/pol=V/pol=v/g' tv-$i-fta.m3u > /tmp/tv-$i-fta.m3u && sed 's/pol=H/pol=h/g' /tmp/tv-$i-fta.m3u > LANG/TV-$i-Fta-$(date +%F)-$(date +%T).m3u
 done
 rm tv-*-fta.m3u allChannels.m3u
-rm -r 1/ 2/ 3/ 4/
+rm -r 1/ 2/ 3/ 4/ *.m3u
