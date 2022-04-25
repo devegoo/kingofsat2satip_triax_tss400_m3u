@@ -19,3 +19,5 @@ MOD for TRIAX TSS400
 tested playeers :
 
 VLC 
+
+list_new_channels_to_new_playlist.sh    is for compare changes on configured positions (not all orbital psitions) and create playlist for added end removed channels in m3u format / must run day by day / it is possible to add to starup scripts or cron/systemd as service this 2 scripts and automate processing of result files
