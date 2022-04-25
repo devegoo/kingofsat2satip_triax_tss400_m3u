@@ -47,8 +47,3 @@ done
 rm tv-*-fta.m3u allChannels.m3u
 rm -r 1/ 2/ 3/ 4/ *.m3u
 
-touch --date $(date +%F) /tmp/foo
-list_new=FTA/$(date +%F)/ALL_FTA_$P1-$P2-$P3-$P4-$(date +%F)-$(date +%M).m3u
-list_old=$(find FTA/$(date +%F)/ALL_FTA_$P1-$P2-$P3-$P4-$(date +%F)-*.m3u -newer /tmp/foo)
-grep -Fxvf $list_new $list_old >> added-$(date +%F)-$(date +%M).m3u
-grep -Fxvf $list_old $list_new >> removed-$(date +%F)-$(date +%M).m3u
