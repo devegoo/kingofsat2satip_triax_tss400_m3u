@@ -1,0 +1,4 @@
+#EXTINF:0,TVP INFO HD
+http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=10719&pol=v&sr=27500&pids=168,112
+#EXTINF:0,TVP INFO ULTRA-4K
+http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=10719&pol=v&sr=27500&pids=172,116
