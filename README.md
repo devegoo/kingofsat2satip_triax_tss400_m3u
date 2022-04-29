@@ -52,6 +52,6 @@ or run
 
 if you have more complex diseqc setup on your triax tss400 server
 
-<img width="964" alt="java 8 and prio java 8  array review example" src="">
+<img width="964" alt="java 8 and prio java 8  array review example" src="https://github.com/devegoo/kingofsat2satip_triax_tss400_m3u/blob/master/src_satip_diseqc_sat_positions.png">
 
 
