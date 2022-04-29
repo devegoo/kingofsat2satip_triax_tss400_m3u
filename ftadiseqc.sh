@@ -85,7 +85,15 @@ echo merging m3u to one playlist
 cat FTA/$(date +%F)/*.m3u > FTA/$(date +%F)/allChannels.m3u
 echo playlists merged
 echo corrections for merged playlists
-sed 's/pol=V/pol=v/g' FTA/$(date +%F)/allChannels.m3u > /tmp/allChannels.m3u && sed 's/pol=H/pol=h/g'  /tmp/allChannels.m3u > FTA/$(date +%F)/ALL_FTA_$P1-$P2-$P3-$P4-$(date +%F)-$(date +%M).m3u
+sed 's/pol=V/pol=v/g' FTA/$(date +%F)/allChannels.m3u > /tmp/allChannels.m3u && sed 's/pol=H/pol=h/g'  /tmp/allChannels.m3u > FTA/$(date +%F)/ALL_FTA-$(date +%F)-$(date +%M).m3u
 echo all done
 echo playlist file for all positions allChannels.m3u is in "FTA / Today date" Directory
 echo playlist for each configured position is in "position's dir's"
+
+
+#list_new=FTA/$(date +%F)/ALL_FTA-$(date +%F)-*.m3u
+#list_old=FTA/$(date -d "yesterday" +%F)/ALL_FTA-$(date -d "yesterday" +%F)-*.m3u
+#grep -Fxvf $list_new $list_old >> DATABASE/removed-$(date +%F)-$(date +%M).m3u
+#grep -Fxvf $list_old $list_new >> DATABASE/added-$(date +%F)-$(date +%M).m3u
+#cat DATABASE/removed*.m3u >> AllRemoved.m3u
+#cat DATABASE/added*.m3u >> Alladded.m3u
