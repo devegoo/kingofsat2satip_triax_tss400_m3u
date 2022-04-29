@@ -1,4 +1,4 @@
-Preconfiguret  positions for 4 x 1/4 DiseQc (16 ports/sat positions) for example 4 antenas with 4 port diseqc switch each or multifed antenna (for example "Wavefrontier")
+Preconfiguret  positions for 4 x 1/4 DiseQc (16 ports/sat positions) for example 4 antenas with 4 port diseqc switch each or multi antenna (for example "Wavefrontier")
 
 #tuner 1
 
