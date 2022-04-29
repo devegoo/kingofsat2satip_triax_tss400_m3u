@@ -1,3 +1,5 @@
+<img width="964" alt="diseqc" src="https://github.com/devegoo/kingofsat2satip_triax_tss400_m3u/blob/master/src_satip_diseqc_sat_positions.png">
+
 # kingofsat2satip
 Usage:
 Adapt getchannels_*.sh to your needs - change SAT>IP server name (ip), adapt satellite positions you receive and lang for positions , modify  sh script calls regarding your setup 
@@ -52,6 +54,6 @@ or run
 
 if you have more complex diseqc setup on your triax tss400 server
 
-<img width="964" alt="diseqc" src="https://github.com/devegoo/kingofsat2satip_triax_tss400_m3u/blob/master/src_satip_diseqc_sat_positions.png">
+
 
 
