@@ -37,20 +37,20 @@ echo setting positions sources
 rm -r "${DIR[@]}"
 mkdir "${DIR[@]}"
 	    echo '1' > $T1P1/N
-	    echo '1' > $T1P2/N
-	    echo '1' > $T1P3/N
-	    echo '1' > $T1P4/N
-	    echo '2' > $T2P1/N
+	    echo '2' > $T1P2/N
+	    echo '3' > $T1P3/N
+	    echo '4' > $T1P4/N
+	    echo '1' > $T2P1/N
 	    echo '2' > $T2P2/N
-	    echo '2' > $T2P3/N
-	    echo '2' > $T2P4/N
-	    echo '3' > $T3P1/N
-	    echo '3' > $T3P2/N
+	    echo '3' > $T2P3/N
+	    echo '4' > $T2P4/N
+	    echo '1' > $T3P1/N
+	    echo '2' > $T3P2/N
 	    echo '3' > $T3P3/N
-	    echo '3' > $T3P4/N
-	    echo '4' > $T4P1/N
-	    echo '4' > $T4P2/N
-	    echo '4' > $T4P3/N
+	    echo '4' > $T3P4/N
+	    echo '1' > $T4P1/N
+	    echo '2' > $T4P2/N
+	    echo '3' > $T4P3/N
 	    echo '4' > $T4P4/N
 echo positions have settings
 echo fetching files from site
