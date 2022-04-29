@@ -1,3 +1,28 @@
+Preconfiguret  positions for 4 x 1/4 DiseQc (16 ports/sat positions) for example 4 antenas with 4 port diseqc switch each or multifed antenna (for example "Wavefrontier")
+
+#tuner 1
+T1P1=39.0E
+T1P2=42.0E
+T1P3=46.0E
+T1P4=50.0E
+#tuner 2
+T2P1=26.0E
+T2P2=28.2E
+T2P3=31.0E
+T2P4=36.0E
+#tuner 3
+T3P1=16.0E
+T3P2=19.2E
+T3P3=21.5E
+T3P4=23.5E
+#tuner 4
+T4P1=4.8E
+T4P2=7.0E
+T4P3=10.0E
+T4P4=13.0E
+
+
+
 <img width="964" alt="diseqc" src="https://github.com/devegoo/kingofsat2satip_triax_tss400_m3u/blob/master/src_satip_diseqc_sat_positions.png">
 
 # kingofsat2satip
