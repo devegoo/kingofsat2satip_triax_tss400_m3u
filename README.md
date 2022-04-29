@@ -28,4 +28,4 @@ or run
 
 if you have more complex diseqc setup on your triax tss400 server
 
-<img src=”(https://github.com/devegoo/kingofsat2satip_triax_tss400_m3u/blob/19b67f6e85d44adf6516d8a193b097dbd9508a62/src_satip_diseqc_sat_positions.png)”>
+https://raw.githubusercontent.com/devegoo/kingofsat2satip_triax_tss400_m3u/19b67f6e85d44adf6516d8a193b097dbd9508a62/src_satip_diseqc_sat_positions.png
