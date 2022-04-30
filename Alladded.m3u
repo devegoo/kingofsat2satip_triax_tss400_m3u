@@ -1,4 +1,0 @@
-#EXTINF:0,4Fun Electro
-http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=10758&pol=v&sr=27500&pids=290,538
-#EXTINF:0,4Fun Country
-http://192.168.1.113/dlna/?type=DVB-S-AUTO&src=1&freq=10758&pol=v&sr=27500&pids=295,539
