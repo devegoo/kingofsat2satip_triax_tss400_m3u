@@ -87,10 +87,8 @@ echo playlists merged
 echo corrections for merged playlists
 sed 's/pol=V/pol=v/g' FTA/$(date +%F)/allChannels.m3u > /tmp/allChannels.m3u && sed 's/pol=H/pol=h/g'  /tmp/allChannels.m3u > FTA/$(date +%F)/ALL_FTA-$(date +%F)-$(date +%M).m3u
 echo all done
-echo playlist file for all positions allChannels.m3u is in "FTA / Today date" Directory
-echo playlist for each configured position is in "position's dir's"
-
-
+echo playlist file for each configured and all in one positions ALL_FTA-$(date +%F)-$(date +%M).m3u is in "FTA / $(date +%F)" Directory
+rm FTA/$(date +%F)/allChannels.m3u
 #list_new=FTA/$(date +%F)/ALL_FTA-$(date +%F)-*.m3u
 #list_old=FTA/$(date -d "yesterday" +%F)/ALL_FTA-$(date -d "yesterday" +%F)-*.m3u
 #grep -Fxvf $list_new $list_old >> DATABASE/removed-$(date +%F)-$(date +%M).m3u
