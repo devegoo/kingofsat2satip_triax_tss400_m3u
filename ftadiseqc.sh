@@ -6,28 +6,28 @@ echo your server ip adress is $SERVER
 # T1 = tuner 1,T2 = tuner 2,T3 = tuner3,T4 = tuner 4
 # P1 = diseqc A,P2 = diseqc B,P3 = diseqc C,P4 = diseqc D
 #tuner 1
-T1P1=39.0E
-T1P2=42.0E
-T1P3=46.0E
-T1P4=50.0E
+T1P1=13.0E
+T1P2=23.5E
+T1P3=19.2E
+T1P4=
 #tuner 2
-T2P1=26.0E
-T2P2=28.2E
-T2P3=31.0E
-T2P4=36.0E
+T2P1=13.0E
+T2P2=
+T2P3=
+T2P4=
 #tuner 3
-T3P1=16.0E
-T3P2=19.2E
-T3P3=21.5E
-T3P4=23.5E
+T3P1=13.0E
+T3P2=
+T3P3=
+T3P4=
 #tuner 4
-T4P1=4.8E
-T4P2=7.0E
-T4P3=10.0E
-T4P4=13.0E
+T4P1=13.0E
+T4P2=
+T4P3=
+T4P4=
 DIR=($T1P1 $T1P2 $T1P3 $T1P4 $T2P1 $T2P2 $T2P3 $T2P4 $T3P1 $T3P2 $T3P3 $T3P4 $T4P1 $T4P2 $T4P3 $T4P4)
 echo your configured sat positions "${DIR[@]}"
-OUTFILES=(*.php *.m3u /tmp/*.m3u "${DIR[@]}")
+OUTFILES=(*.php *.m3u /tmp/*.m3u "${DIR[@]}" "${DIR[@]}"/N "${DIR[@]}"/*.php "${DIR[@]}"/*.m3u)
 echo cleaning 
 if [ -f $OUTFILES ]; then
     rm $OUTFILES
