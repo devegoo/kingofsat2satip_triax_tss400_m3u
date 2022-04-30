@@ -27,7 +27,7 @@ T4P3=
 T4P4=
 DIR=($T1P1 $T1P2 $T1P3 $T1P4 $T2P1 $T2P2 $T2P3 $T2P4 $T3P1 $T3P2 $T3P3 $T3P4 $T4P1 $T4P2 $T4P3 $T4P4)
 echo your configured sat positions "${DIR[@]}"
-OUTFILES=(*.php *.m3u /tmp/*.m3u "${DIR[@]}" "${DIR[@]}"/N "${DIR[@]}"/*.php "${DIR[@]}"/*.php.* "${DIR[@]}"/*.m3u)
+OUTFILES=(*.php *.m3u /tmp/*.m3u )
 echo cleaning 
 if [ -f $OUTFILES ]; then
     rm $OUTFILES
@@ -89,6 +89,7 @@ sed 's/pol=V/pol=v/g' FTA/$(date +%F)/allChannels.m3u > /tmp/allChannels.m3u && 
 echo all done
 echo playlist file for each configured and all in one positions ALL_FTA-$(date +%F)-$(date +%M).m3u is in "FTA / $(date +%F)" Directory
 rm FTA/$(date +%F)/allChannels.m3u
+rm -r "${DIR[@]}"
 #list_new=FTA/$(date +%F)/ALL_FTA-$(date +%F)-*.m3u
 #list_old=FTA/$(date -d "yesterday" +%F)/ALL_FTA-$(date -d "yesterday" +%F)-*.m3u
 #grep -Fxvf $list_new $list_old >> DATABASE/removed-$(date +%F)-$(date +%M).m3u
