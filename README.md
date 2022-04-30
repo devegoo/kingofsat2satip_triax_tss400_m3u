@@ -1,5 +1,7 @@
 for ftadiseqc.sh
 
+Attention : below configuration was not tested by now and not confirmed for >4 different positions, but current code works for 4 sat ( 4 x 1/4diseqc - mirrored setup)
+
 Possible preconfigured  positions for 4 x 1/4 DiseQc (16 ports/sat positions) for example 4 antenas with 4 port diseqc switch each or multi antenna (for example "Wavefrontier")
 
 #tuner 1
