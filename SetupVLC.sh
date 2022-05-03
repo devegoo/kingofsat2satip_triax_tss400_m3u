@@ -11,7 +11,3 @@ sed 's/satip-channelist=/satip-channelist=CustomList/g' ~/.config/vlc/vlcrc > /t
 sed 's/#satip-channellist-url=/satip-channellist-url=/g' ~/.config/vlc/vlcrc > /tmp/vlcrc && mv /tmp/vlcrc ~/.config/vlc/vlcrc
 sed --expression "s@$emptyurl@$newurl@" ~/.config/vlc/vlcrc > /tmp/vlcrc && mv /tmp/vlcrc ~/.config/vlc/vlcrc
 sed --expression "s@$oldurl@$newurl@" ~/.config/vlc/vlcrc > /tmp/vlcrc && mv /tmp/vlcrc ~/.config/vlc/vlcrc
-sed --expression "s@$oldurl@$newurl@" ~/.config/vlc/vlcrc > /tmp/vlcrc && mv /tmp/vlcrc ~/.config/vlc/vlcrc
-
-
-
