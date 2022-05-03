@@ -131,8 +131,5 @@ echo "http://$IP/${i}.m3u" >> Master.m3u
 done
 mv Master.m3u openwrt_www/
 echo files for openwrt ready
-place=root@$IP:/www
-file=openwrt_www/*.m3u
-scp $file $place/
 rm -r FTA/
 
