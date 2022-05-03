@@ -1,3 +1,6 @@
+SAT>IP Source Number : This field is matched through the “src” parameter asked from the SAT>IP client. Usually (and by default) this value is 1. For satellite tuners, this value determines the satellite source (dish). By specification position 1 = DiseqC AA, 2 = DiseqC AB, 3 = DiseqC BA, 4 = DiseqC BB, but any numbers may be used - depends on the SAT>IP client. Note that if you use same number for multiple networks, the first matched network containing the mux with requested parameters will win (also for unknown mux). If this field is set to zero, the network cannot be used by the SAT>IP server.
+
+
 for ftadiseqc.sh
 
 Attention : below configuration was not tested by now and not confirmed for >4 different positions, but current code works for 4 sat ( 4 x 1/4diseqc - mirrored setup)
